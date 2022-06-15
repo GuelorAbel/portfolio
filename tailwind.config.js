@@ -5,8 +5,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'abel': "./abel-regular.ttf"
-      }
+        "abel": "abel",
+      },
     },
   },
   plugins: [],

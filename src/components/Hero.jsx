@@ -5,7 +5,7 @@ import { Fade } from 'react-reveal';
 
 function Hero() {
     return (
-        <section className='bg-sky-500 w-[100%] h-screen text-white flex flex-col justify-center'>
+        <section className='bg-sky-500 w-[100%] h-screen text-white flex flex-col justify-center font-abel'>
             {/* ICONES DES RESEAUX SOCIAUX */}
             <div className='hidden lg:block fixed w-[400px]'>
                 <ul className='px-1'>

@@ -5,7 +5,7 @@ import Cv from '../assets/cvAbel.pdf'
 
 function About() {
   return (
-    <section className='py-20' name="about">
+    <section className='py-20 font-abel' name="about">
       {/* LE TITRE DE MA SECTION + DECO A L'AIDE D'UN TRAIT */}
       <h3 className='text-3xl uppercase text-center mb-1 font-bold text-gray-700'>A propos de moi</h3>
       <div className='w-[100px] h-[4px] bg-sky-500 mx-auto rounded-full'></div>

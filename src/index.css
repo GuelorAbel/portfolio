@@ -24,9 +24,9 @@ main {
   @apply w-[60%] mx-auto;
 }
 .btn {
-  @apply rounded-md border-2 border-white p-3 hover:bg-white hover:text-gray-900 duration-300;
+  @apply rounded-md border-2 border-gray-200 p-2 hover:bg-gray-200 text-gray-200 hover:text-gray-900 duration-300;
 }
 
 .btn-sky {
-  @apply rounded-md border-2 border-sky-500 p-3 text-sky-500 hover:bg-sky-500 hover:text-gray-200 duration-300;
+  @apply rounded-md border-2 border-sky-500 p-2 text-sky-500 hover:bg-sky-500 hover:text-gray-200 duration-300;
 }

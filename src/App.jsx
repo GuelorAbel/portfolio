@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Competences from "./components/Competences";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
@@ -17,10 +18,8 @@ function App() {
         <Competences />
       </main>
 
-      <footer>
-        <div className="section py-4">
-          <h1>Mon pied de page</h1>
-        </div>
+      <footer className="bg-gray-300 text-gray-800 py-9">
+        <Footer />
       </footer>
     
     </>
