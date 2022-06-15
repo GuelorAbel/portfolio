@@ -58,7 +58,7 @@ function Hero() {
             
             <div className="sections mt-6 sm:mt-4 md:mt-0">
                 <Fade bottom>
-                    <p className="text-lg sm:text-2xl py-3 font-thin">
+                    <p className="text-lg sm:text-xl py-3 font-thin">
                         La passion de l'informatique et du numérique
                     </p>
 

@@ -83,7 +83,7 @@ function Competences() {
 
          {/* BLOC INFOGRAPHIE */}
          <div className='px-3'>
-            <h6 className="subsub pb-4 underline underline-offset-4 underline-sky-600 text-semibold text-center">Infographie</h6>
+            <h6 className="text-xl pb-4 underline underline-offset-4 underline-gray-200 text-bold text-center">Infographie</h6>
                {/* CREATION DE SUPPORTS DE COMMUNICATION */}
             <div className='pb-4'>
                <span className="">Création de supports de communications</span>
