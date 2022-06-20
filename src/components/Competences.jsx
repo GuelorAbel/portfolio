@@ -3,7 +3,7 @@ import Cv from '../assets/cvAbel.pdf'
 
 function Competences() {
   return (
-    <section className='bg-sky-500 py-20 font-abel'>
+    <section className='bg-sky-500 py-20 font-abel' name='competences'>
        {/* TITRE DE LA SECTION  */}
        <h3 className='text-3xl uppercase text-center mb-1 font-bold text-gray-200'>mes compétences</h3>
        <div className='w-[100px] h-[4px] bg-gray-200 mx-auto rounded-full'></div>
@@ -54,7 +54,7 @@ function Competences() {
             <div className='pb-4'>
                <span className="">HTML5, CSS3, JavaScript</span>
                <div className="w-full bg-gray-200 rounded-full">
-                  <div className="bg-sky-700 text-xs font-medium text-gray-200 text-center p-0.5 leading-none rounded-full w-[80%]"> 80%</div>
+                  <div className="bg-sky-700 text-xs font-medium text-gray-200 text-center p-0.5 leading-none rounded-full w-[75%]"> 75%</div>
                </div>
             </div>
             {/* REACT JS */}
