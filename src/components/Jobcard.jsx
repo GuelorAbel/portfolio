@@ -1,19 +1,18 @@
 import React from 'react'
 
-function Jobcard({titre, src, desc, url}) {
+function Jobcard({titre, src, url}) {
   return (
+      // LE COMPOSANT CARD (REPRESENTATION DU TRAVAIL DEJA EFFECTUE)
       <div>
-         <a href={url} target="_blank" rel="noreferrer" className="cursor-pointer">
+         <a href={url} target="_blank" rel="noopener noreferrer" className="cursor-pointer">
          <div>
             <img src={src} alt="Site web de www.abel.com développé par Abel" />
          </div>
          <div>
                <h5 className="subsub text-center text-sky-500 font-semibold py-3">{titre}</h5>
-               <p className="para text-center">
-                  {desc}
-               </p>
-            <div className="mx-[36%] md:mx-[35%] py-6">
-               <a href={url} target="_blank" rel="noreferrer" className='btn-sky'>
+               
+            <div className="mx-[33%] md:mx-[37%] py-6">
+               <a href={url} target="_blank" rel="noopener noreferrer" className='btn-sky'>
                   Visiter le site
                </a>
             </div>

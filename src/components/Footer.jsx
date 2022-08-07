@@ -4,7 +4,7 @@ function Footer() {
   return (
     <>
       {/* BLOC DE CODE DU PIED DE PAGE */}
-      <div className="section">
+      <section className="section">
          <div className='grid md:grid-cols-3 gap-4'>
             <div className='md:col-span-2 border-2 '>
                <h4>A props de moi</h4>
@@ -15,7 +15,7 @@ function Footer() {
          </div>
          
 
-      </div>
+      </section>
     </>
   )
 }

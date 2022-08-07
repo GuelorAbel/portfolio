@@ -7,7 +7,7 @@ function Navbar () {
     const handleClick = () => setNav(!nav);
     return (
         // BLOC DE LA NAVIGATION DU SITE
-        <nav className='bg-sky-500 w-[100%] text-white font-abel fixed top-0 left-0 z-10'>
+        <nav className='bg-sky-500 w-[100%] text-white font-abel fixed top-0 left-0 z-20'>
             <div className='w-full shadow-sm'>
                 <div className="section py-4 flex justify-between items-center">
                     {/* EMPLACEMENT DU LOGO */}

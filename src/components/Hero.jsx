@@ -5,7 +5,7 @@ import { Fade } from 'react-reveal';
 
 function Hero() {
     return (
-        <section className='bg-sky-500 w-full h-screen text-white flex flex-col justify-center font-abel'>
+        <section className='bg-back bg-cover bg-center bg-no-repeat w-full py-20 text-white flex flex-col justify-center font-abel'>
             {/* ICONES DES RESEAUX SOCIAUX */}
             <div className='hidden lg:block fixed w-[10%]'>
                 <ul className='px-1'>
@@ -55,39 +55,39 @@ function Hero() {
             </div>
 
             {/* SECTION QUI ME PRESENTE */}
-            
-            <div className="sections mt-6 sm:mt-4 md:mt-0">
-                <Fade bottom>
-                    <p className="text-lg sm:text-xl py-3 font-thin">
-                        La passion de l'informatique et du numérique
-                    </p>
-
-                    <h1 className="text-xl sm:text-6xl pb-2 font-abel">
-                        Guelor Abel ANGO
-                    </h1>
-
-                    <div className='pb-6'>
-                        <h2 className='text-xl sm:text-5xl font-bold text-gray-100 pb-4'>
-                            Technicien Système & Réseau <br /> Développeur Web
-                        </h2>
-                        <p className='text-lg font-light'>
-                            Je suis un technnicien polyvalant alaise aussi bien bien dans le hardware que dans le 
-                            software, <br />
-                            mais aussi dans la gestion du parc informatique, l'administration du réseau, le design web et la conception 
-                            de site web...
+            <div className='w-[100%] md:w-[90%]'>
+                <div className="sections mt-6 sm:mt-4 md:mt-0">
+                    <Fade bottom>
+                        <p className="text-lg sm:text-xl py-2 font-thin">
+                            La passion des nouvelles technologies du web
                         </p>
-                    </div>
-                    
-                    <button className='btn flex justify-between items-center cursor-pointer group'>
-                        Voir mes travaux 
-                        <span className='group-hover:rotate-90 duration-300'>
-                            <HiArrowNarrowRight size={22} className="ml-3" />
-                        </span>
-                    </button>
-                </Fade>
+
+                        <h2 className="text-xl sm:text-6xl pb-2 font-abel">
+                            Guelor Abel ANGO
+                        </h2>
+
+                        <div className='pb-6'>
+                            <h1 className='text-xl sm:text-5xl font-bold text-gray-100 pb-4'>
+                                Technicien Système & Réseau <br /> Développeur Web
+                            </h1>
+                            <p className='text-lg font-light w-[70%]'>
+                                Je suis un technnicien polyvalant alaise aussi bien bien dans le hardware que dans le 
+                                software,
+                                mais aussi dans la gestion du parc informatique, l'administration du réseau, le design web et la conception 
+                                de site web...
+                            </p>
+                        </div>
+                        
+                        <button className='btn flex justify-between items-center cursor-pointer group'>
+                            Voir mes travaux 
+                            <span className='group-hover:rotate-90 duration-300'>
+                                <HiArrowNarrowRight size={22} className="ml-3" />
+                            </span>
+                        </button>
+                    </Fade>
+                </div>
             </div>
             
-        
         </section>
     )
 }

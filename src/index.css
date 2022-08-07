@@ -17,7 +17,7 @@ main {
 }
 
 .section {
-  @apply w-[80%] mx-auto;
+  @apply container mx-auto px-4 md:px-0;
 }
 
 .sections {
@@ -29,4 +29,9 @@ main {
 
 .btn-sky {
   @apply rounded-md border-2 border-sky-500 p-2 text-sky-500 hover:bg-sky-500 hover:text-gray-200 duration-300;
+}
+
+.experience {
+  @apply text-white bg-sky-500 opacity-0 group-hover:opacity-100 rounded-lg p-3 duration-500
+  cursor-pointer;
 }
