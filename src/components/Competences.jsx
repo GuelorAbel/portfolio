@@ -82,38 +82,38 @@ function Competences() {
             </div>
 
          {/* BLOC DESIGN WEB & INFOGRAPHIE */}
-         <div className='px-3 py-2'>
-            <h6 className="text-xl pb-4 underline underline-offset-4 underline-gray-200 text-bold text-center">Ux/Ui Design & Infographie</h6>
-               {/* CREATION DE SUPPORTS DE COMMUNICATION */}
-            <div className='pb-4'>
-               <span className="">Création de supports de communications</span>
-               <div className="w-full bg-gray-200 rounded-full">
-                  <div className="bg-sky-600 text-xs font-medium text-gray-100 text-center p-0.5 leading-none rounded-full w-[70%]"> 70%</div>
+            <div className='px-3 py-2'>
+               <h6 className="text-xl pb-4 underline underline-offset-4 underline-gray-200 text-bold text-center">UX/UI Design & Infographie</h6>
+                  {/* CREATION DE SUPPORTS DE COMMUNICATION */}
+               <div className='pb-4'>
+                  <span className="">Création de supports de communications</span>
+                  <div className="w-full bg-gray-200 rounded-full">
+                     <div className="bg-sky-600 text-xs font-medium text-gray-100 text-center p-0.5 leading-none rounded-full w-[70%]"> 70%</div>
+                  </div>
                </div>
-            </div>
-            {/* REACT JS */}
-            <div className='pb-4'>
-               <span className="">UI & UX design</span>
-               <div className="w-full bg-gray-200 rounded-full">
-                  <div className="bg-sky-600 text-xs font-medium text-gray-100 text-center p-0.5 leading-none rounded-full w-[60%]"> 60%</div>
+               {/* REACT JS */}
+               <div className='pb-4'>
+                  <span className="">UI & UX design</span>
+                  <div className="w-full bg-gray-200 rounded-full">
+                     <div className="bg-sky-600 text-xs font-medium text-gray-100 text-center p-0.5 leading-none rounded-full w-[60%]"> 60%</div>
+                  </div>
+               </div>  
+               {/* PHP ET MYSQL */}
+               <div className='pb-4'>
+                  <span className="">Création des maquettes de site & application</span>
+                  <div className="w-full bg-gray-200 rounded-full">
+                     <div className="bg-sky-600 text-xs font-medium text-gray-100 text-center p-0.5 leading-none rounded-full w-[65%]"> 65%</div>
+                  </div>
                </div>
-            </div>  
-            {/* PHP ET MYSQL */}
-            <div className='pb-4'>
-               <span className="">Création des maquettes de site & application</span>
-               <div className="w-full bg-gray-200 rounded-full">
-                  <div className="bg-sky-600 text-xs font-medium text-gray-100 text-center p-0.5 leading-none rounded-full w-[65%]"> 65%</div>
-               </div>
-            </div>
-            {/* HTML CSS ET JAVASCRIPT */}
-            <div className='pb-4'>
-               <span className="">Adobe (Photoshop, Illustrator, Indesign, Adobe xd)</span>
-               <div className="w-full bg-gray-200 rounded-full">
-                  <div className="bg-sky-600 text-xs font-medium text-gray-100 text-center p-0.5 leading-none rounded-full w-[60%]"> 60%</div>
-               </div>
-            </div>  
+               {/* HTML CSS ET JAVASCRIPT */}
+               <div className='pb-4'>
+                  <span className="">Adobe (Photoshop, Illustrator, Indesign, Adobe xd)</span>
+                  <div className="w-full bg-gray-200 rounded-full">
+                     <div className="bg-sky-600 text-xs font-medium text-gray-100 text-center p-0.5 leading-none rounded-full w-[60%]"> 60%</div>
+                  </div>
+               </div>  
 
-         </div>
+            </div>
        </div>
       
       {/* BOUTTON POUR TELECHARGER MON CV */}

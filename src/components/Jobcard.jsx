@@ -11,7 +11,7 @@ function Jobcard({titre, src, url}) {
          <div>
                <h5 className="subsub text-center text-sky-500 font-semibold py-3">{titre}</h5>
                
-            <div className="mx-[33%] md:mx-[37%] py-6">
+            <div className="w-[80%] mx-[35%] py-6">
                <a href={url} target="_blank" rel="noopener noreferrer" className='btn-sky'>
                   Visiter le site
                </a>

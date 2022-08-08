@@ -16,7 +16,14 @@ function Experiences() {
         {/* Box 1 */}
           {
             Exp.map((item, id) =>
-            <Acquis  job={item.job} poste={item.poste} dateD={item.dateD} dateF={item.dateF} desc={item.desc} key={id}  />
+            <Acquis  
+              job={item.job} 
+              poste={item.poste} 
+              dateD={item.dateD} 
+              dateF={item.dateF} 
+              desc={item.desc} 
+              key={id}  
+            />
           )
           }
 
